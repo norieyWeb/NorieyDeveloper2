@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:url(../img/politica.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+body .uno{
+    box-sizing: border-box;
+    padding:5px 7px 5px 5px;
+    margin:0 5px;
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    font-weight:900;
+    background:rgba(255, 255, 255, 0.555);
+    border-radius:5px 0 0 5px;
+
+     -webkit-box-shadow:-3px 0 rgb(62,39,155) inset;
+    -ms-box-shadow:-3px 0 rgb(62,39,155) inset;
+    -moz-box-shadow:-3px 0 rgb(62,39,155) inset;
+    -o-box-shadow:-3px 0 rgb(62,39,155) inset;
+    box-shadow:-3px 0 rgb(62,39,155) inset;
+
+    -webkit-transition:all .3s linear;
+    -ms-transition:all .3s linear;
+    -moz-transition:all .3s linear;
+    -o-transition:all .3s linear;
+    transition:all .3s linear;
+}
+
+body .uno:hover{
+    -webkit-box-shadow:-150px 0 rgb(62,39,155) inset;
+    -ms-box-shadow:-150px 0 rgb(62,39,155) inset;
+    -moz-box-shadow:-150px 0 rgb(62,39,155) inset;
+    -o-box-shadow:-150px 0 rgb(62,39,155) inset;
+    box-shadow:-150px 0 rgb(62,39,155) inset;
+}
+/* -----------------estilos generales (<a>) menu nav-------------- */
+body .uno .icon1{
+    margin-right: 15px;
+    color:white;
+    font-size:18px;
+    -webkit-transition:all .7s ease;
+    -ms-transition:all .7s ease;
+    -moz-transition:all .7s ease;
+    -o-transition:all .7s ease;
+    transition:all .7s ease;
+} 
+
+body .politica_privacidad{
+    box-sizing:border-box;
+    width: 80%;
+    margin: 5px auto;
+    background: rgba(0, 0, 0, .5);
+    padding:15px;
+   
+}
+body .politica_privacidad .titulo1{
+   text-align: center;
+   color: rgba(255, 255, 255, 0.801);
+
+}
+body .politica_privacidad .titulo{
+    text-align: center;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.699);
+ }
+
+body .politica_privacidad p{
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 25px;
+ }
+ body .politica_privacidad .negritas{
+    color: white;
+ }
+
+ body .politica_privacidad .enlace{
+    color: white;
+ }
+ body .politica_privacidad .enlace:hover{
+    color: black;
+ }
+
+ body .goup{
+    box-sizing: border-box;
+    padding: 10px;
+    position:fixed;
+    bottom:30px;
+    right:35px;
+    font-size: 20px;
+    background:rgba(244, 86, 21, .7);
+    color:#000;
+    z-index:500;
+    cursor: pointer;
+    border: 3px solid transparent;
+    /* border-color: yellow yellow yellow yellow; */
+    border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    transform: scale(0);
+}
+/* ------boton ir arriba--------- */

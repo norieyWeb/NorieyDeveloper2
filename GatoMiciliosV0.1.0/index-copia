@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icn.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" type="text/css" media="">
+    <link rel="stylesheet" href="../fonts/style.css">
+    <title> Gatomicilios |2020| Bienvenidos  </title>
+</head>
+<body>
+	<div class="abuelo">
+		
+		<div class="padre">
+			
+			<div class="header">
+				<img src="../LogoPrincipal.png" alt="logo"> 
+				<span id="menuActivo" class="icon-th-menu menu"></span>
+
+				<nav id="navegacion" class="">
+					<a href="#" class="uno"><span class="icon-gift icon1"></span>Compartir</a>
+					<a href="#" class="dos"><span class="icon-time icon2"></span>Mis pedidos</a>		
+				</nav>
+				
+				
+				<div  class="wrap">
+					<div class="widget">
+							
+						<div class="fecha">
+							<p id="diaSemana" class="diaSemana"></p>
+							<p id="dia" class="dia"></p>
+							<p>de </p>
+							<p id="mes" class="mes"></p>
+							<p>del </p>
+							<p id="year" class="year"></p>
+						</div>
+							
+						<div class="reloj">
+								<p id="horas" class="horas"></p>
+								<p><strong>:</strong></p>
+								<p id="minutos" class="minutos"></p>
+								<p><strong>:</strong></p>
+							<div class="caja-segundos">
+								<p id="ampm" class="ampm"></p>
+								<p id="segundos" class="segundos"></p>
+							</div>
+						</div>
+					</div>
+				</div>	
+					
+					
+			</div><!--cierre header-->
+			<!--.................................................................-->
+			
+			<div class="body_1">
+				<div class="tarjeta1">
+					<a href="#">
+						<figure class="frontal">
+							<img class="imgPrincipal1" src="ctgriaChina.png" alt="ctgria china" srcset="">
+							<p class="ayuda">pulsar para info</p>
+							<figcaption class="trasera">
+								<h2 class="titulo">Comida china</h2>
+								<p class="dialogo">Platillos del origen chino en sus mas deliciosas preparaciones</p>
+								<p class="enlace">Visitar</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div><!--cierre body_1-->
+			<!--...................1..............................................-->
+			
+			<div class="body_2">
+				<img class="imgPrincipal2" src="ctgriaRapida.png" alt="ctgria rapida" srcset="">
+			</div><!--cierre body_2-->
+			<!--....................2.............................................-->
+				
+			<div class="body_3">
+				<img class="imgPrincipal3" src="ctgriaCorriente.png" alt="ctgria corriente" srcset="">
+			</div><!--cierre body_3-->
+			<!--....................3.............................................-->
+			
+			<div class="body_4">
+				<img class="imgPrincipal4" src="ctgriaTienda.png" alt="ctgria corriente" srcset="">
+			</div><!--cierre body_4-->
+			<!--................4.................................................-->			
+		
+			<div class="body_5">
+				slider
+			</div><!--cierre body_5-->
+			<!--.............5....................................................-->
+			
+			<div class="footer">
+				
+				 <div class="fin_izq">
+					<a href="www.facebook.com" target="_blank"><span class="icon-social-facebook"></span></a>
+					<p class="txt1" title="Soporte las 24 horas" > Dudas ? </p>
+				</div>
+
+				<div class="fin_cen">
+                    <a href="#"> politica </a> &copy; <a href="#"> privacidad </a>
+                                            <br>
+                                        bogota - colombia
+                                            <br>
+                                <a href="#"> derechos de autor </a>
+                                            <br>
+         
+                                    copyright 2019 - 2022
+				</div>
+				
+				<div class="fin_der">
+					<a href="#"><span id="tel" class="icon-phone"></span></a>
+					<p title="Comuniquse con nosotros"> Dudas ?  </p>
+				</div>
+			</div><!--cierre footer-->
+			<!--.................................................................-->		
+		</div><!--cierre padre-->
+		
+	</div><!--cierre abuelo-->
+	<script src="index.js"></script>
+	
+</body>
+</html>
+
+
+.abuelo .padre .body_1{position:relative;grid-area: 2/1/3/2;
+    display:flex;justify-content:center;align-items: center;
+    background:#EEEEEE;margin-left:4px;border-radius:5px;}
+
+.abuelo .padre .body_1 .tarjeta1{width:80%;height:90%;;
+    -webkit-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+    perspective: 700px;
+    transform-style: preserve-3d;cursor: pointer; }    
+
+.abuelo .padre .body_1 .tarjeta1:hover{
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg); }    
+
+.abuelo .padre .body_1 .tarjeta1 a{display: block;width:100%;height:100%;
+text-decoration: none;
+box-shadow: 3px 3px rgba(0, 0, 0, 0.247),
+            4px 4px rgba(0, 0, 0, 0.158);
+border-radius: 10px;}
+
+.abuelo .padre .body_1 .tarjeta1 a .frontal{position: relative;width: 100%;height: 100%;}
+
+.abuelo .padre .body_1 .tarjeta1 a .frontal .imgPrincipal1{border-radius: 10px; width: 100%;
+    height: 100%;}
+
+.abuelo .padre .body_1 .tarjeta1 a .frontal .ayuda{display:none;position:absolute;top:0;padding:0;color:black;
+    width:100%;font-size:16px;font-weight: 600;text-align: center;}
+
+
+
+    
+.abuelo .padre .body_1 .tarjeta1 a .trasera{box-sizing: border-box;padding: 5px;
+    display:flex;flex-direction: column;
+    justify-content: space-around;align-items: center;
+    position: absolute;
+    top:0;
+    background: rgb(157, 157, 231);width: 100%;
+    height: 100%;
+    color:white;
+    text-align: center;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+    border-radius: 10px;}
+.abuelo .padre .body_1 .tarjeta1 a .trasera .titulo{font-weight: bold;}
+.abuelo .padre .body_1 .tarjeta1 a .trasera .dialogo{font-size: 16px}
+.abuelo .padre .body_1 .tarjeta1 a .trasera .enlace{font-size: 20px}
+
+/* .abuelo .padre .body_1 .tarjeta1 a .frontal .imgPrincipal1:hover{filter: blur(1px);} */        
+/*--------------------------cierre body_1--------------------------*/	
